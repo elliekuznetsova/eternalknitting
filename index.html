@@ -216,9 +216,26 @@
       </p>
       
 <div class="contact-actions">
-  <button class="btn btn-primary" type="button" onclick="copyEmail()">Скопировать email</button>
+  <button class="btn btn-primary" type="button" onclick="copyEmail(this)">Скопировать email</button>
   <a class="btn btn-secondary" href="https://www.instagram.com/eternal_knitting/" target="_blank" rel="noopener">Instagram</a>
   <a class="btn btn-secondary" href="https://t.me/evgenuyaknitting" target="_blank" rel="noopener">Telegram</a>
+
+<script>
+  function copyEmail(button) {
+    const email = "c.eugeniya@yandex.ru";
+
+    navigator.clipboard.writeText(email).then(() => {
+      const originalText = button.textContent;
+
+      button.textContent = "Скопировано ✓";
+
+      setTimeout(() => {
+        button.textContent = originalText;
+      }, 2000);
+    });
+  }
+</script>
+
 </div>    
     </div>
 
