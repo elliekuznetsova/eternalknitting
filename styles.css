@@ -214,7 +214,7 @@ h2 {
 
 .collection .section-head {
   align-items: end;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .cards-grid {
@@ -409,5 +409,11 @@ h2 {
 
   .container {
     width: min(100% - 24px, 1120px);
+  }
+}
+
+{
+  .section-head {
+    margin-bottom: 24px;
   }
 }
