@@ -326,3 +326,35 @@ h2 {
   .process-grid { gap: 16px; }
   .contact-box { padding: 22px; }
 }
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-left {
+  min-width: 220px;
+  text-align: center;
+}
+
+.about-photo {
+  width: 220px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.about-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about-right {
+  max-width: 600px;
+}
+
+.about-right p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
