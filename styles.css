@@ -80,17 +80,17 @@ code {
 .eyebrow,
 .section-label {
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   color: var(--muted);
-  font-size: 14px;
-  margin: 0 0 14px;
+  font-size: 13px;
+  margin: 10px;
 }
 
 h1, h2 {
   font-family: 'Cormorant Garamond', serif;
-  line-height: 0.95;
-  margin: 0;
-  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.1;
+  margin: 0 0 32px;
 }
 
 h1 {
