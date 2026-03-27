@@ -80,9 +80,9 @@ code {
 .eyebrow,
 .section-label {
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   margin: 0 0 14px;
 }
 
@@ -102,16 +102,21 @@ h2 {
   font-size: clamp(2rem, 4.4vw, 3.5rem);
 }
 
-.lead,
+.lead {
+  font-size: 20px;
+  max-width: 60ch;
+  line-height: 1.7;
+}
+
 .about p,
 .section-note,
 .process-card p,
 .contact-box p,
 .card-body p,
 .card-body li {
-  color: var(--muted);
+  font-size: 16px;
   line-height: 1.7;
-  font-size: 1.02rem;
+  color: var(--muted);
 }
 
 .hero-actions,
