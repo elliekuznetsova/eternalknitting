@@ -80,9 +80,9 @@ code {
 .eyebrow,
 .section-label {
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.15em;
   color: var(--muted);
-  font-size: 0.77rem;
+  font-size: 13px;
   margin: 0 0 14px;
 }
 
